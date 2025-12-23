@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import AuthContext from '../context/AuthContext';
 
-const API_URL = 'http://localhost:5000/api/users/login';
+const API_URL = 'https://blog-platform-62x2.onrender.com/api/users/login';
 
 const Login = () => {
   const [email, setEmail] = useState('');

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import BlogPostCard from '../components/BlogPostCard';
 
-const API_URL = 'http://localhost:5000/api/posts';
+const API_URL = 'https://blog-platform-62x2.onrender.com/api/posts';
 
 const Home = () => {
   const [posts, setPosts] = useState([]);

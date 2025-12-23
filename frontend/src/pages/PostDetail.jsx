@@ -4,7 +4,7 @@ import { useParams, useNavigate, Link } from 'react-router-dom';
 import { toast } from 'react-hot-toast';
 import AuthContext from '../context/AuthContext';
 
-const API_URL = 'http://localhost:5000/api/posts';
+const API_URL = 'https://blog-platform-62x2.onrender.com/api/posts';
 
 const PostDetail = () => {
   const [post, setPost] = useState(null);
