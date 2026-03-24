@@ -19,7 +19,6 @@ const Register = () => {
 
     try {
       const response = await axios.post(API_URL, { username, email, password });
-      // Log the user in immediately after successful registration
       login(response.data); 
       navigate('/'); 
     } catch (err) {

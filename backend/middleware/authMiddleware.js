@@ -3,7 +3,6 @@ const User = require('../models/UserModel');
 
 const protect = async (req, res, next) => {
   let token;
-
   // 1. Check if token exists in the 'Authorization' header
   if (
     req.headers.authorization &&
